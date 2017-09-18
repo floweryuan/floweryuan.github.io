@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MyFooterComponent } from './components/my-footer/my-footer.component';
 import { LoginlistComponent } from './components/loginlist/loginlist.component';
 
+
 const routes: Routes = [
   {
     path: 'home',
