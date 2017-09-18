@@ -9,8 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
-   
+    "e2e": "ng e2e",
+   "deploy": "ng build --bh /Angular4Demo/ --prod --aot=false && gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
